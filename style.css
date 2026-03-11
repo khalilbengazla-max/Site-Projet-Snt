@@ -1,0 +1,89 @@
+/* Style global du site */
+body {
+    font-family: Arial, sans-serif; /* police */
+    background-color: #f0f0f0; /* couleur de fond */
+    color: #333; /* couleur du texte */
+    line-height: 1.5; /* hauteur des lignes */
+    margin: 0;
+    padding: 0;
+}
+
+/* Titres */
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: darkred;
+    margin-left: 20px;
+}
+
+/* Paragraphe */
+p {
+    font-size: 18px;
+    margin: 15px 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 15px auto;
+    width: 400px;
+    border-radius: 10px; /* coins arrondis */
+}
+
+/* Tableaux */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 15px auto;
+}
+
+th, td {
+    border: 1px solid black; /* bordure */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: lightblue;
+}
+
+/* Listes */
+ul, ol {
+    margin-left: 40px;
+}
+
+/* Vidéos */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Pied de page / nom */
+footer {
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    margin: 20px 0;
+}
